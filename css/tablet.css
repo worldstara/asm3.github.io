@@ -1,0 +1,160 @@
+@media (max-width: 768px) {
+    .menu .menu1{
+        display: none;
+    }
+    div.navbar{
+        margin-left: 10px;
+    }
+    .target .target1 .tg1{
+        margin-left: 30px;
+    }
+    .target .target1 .tg2{
+        margin-left: 30px;
+    }
+    div.info{
+        margin-left: 20px;
+    }
+    div.info .exp{
+        grid-column: 1 ;
+        grid-row: 1;
+        width: 150%;
+    }
+    div.info .skill{
+        grid-column: 1 ;
+        grid-row: 2;
+        width: 150%;
+    }
+    div.info .language{
+        grid-column: 1 ;
+        grid-row: 3;
+        width: 150%;
+    }
+    div.info .action{
+        grid-column: 2 ;
+        grid-row: 1;
+        width: 150%;
+        height: 60%;
+        margin-left: 125px;
+    }
+    div.info .study{
+        grid-column: 2 ;
+        grid-row: 2;
+        width: 150%;
+        margin-left: 125px;
+        margin-top: -215px;
+        height: 100%;
+    }
+    div.info .like{
+        grid-column: 2 ;
+        grid-row: 3;
+        width: 150%;
+        margin-left: 125px;
+        margin-top: -215px;
+    }
+    .cc #ccdb .cctext{
+        display: block;
+    }
+    .cc #ccdb .ccimg img{
+        width: 50%;
+        height: auto;
+    }
+    .cc #ccwb .ccimg img,.cc #ccjs .ccimg img{
+        width: 100%;
+        height: auto;
+    }
+    .cc #ccwb{
+        margin-left: -80px;
+    }
+    .cc #ccdb{
+        margin-left: 20px;
+    }
+    #duan{
+        font-size: small;
+        margin-left: 0px;
+    }
+    #duan img{
+        width: 100%;
+        height: auto;
+    }
+    #duan .duan1 .cn1{
+        height: 127px;
+    }
+    .duan .develop{
+        margin-left: 45%;
+    }
+    .container .goals{
+        grid-column: 1/-1;
+        grid-row: 1;
+    }
+    .goals .nd .icon {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        margin-top: 0px;
+    }
+    .goals .nd .text{
+        grid-column: 1/ -1;
+        grid-row: 2 ;
+    }
+    .goals .nd .icon1 {
+        grid-column: 1/ -1;
+        grid-row: 3;
+    }
+    .goals .nd .text1{
+        grid-column: 1/ -1;
+        grid-row: 4 ;  
+    }
+    .goals .nd .icon2 {
+        grid-column: 1/ -1;
+        grid-row: 5;
+    }
+    .goals .nd .text2{
+        grid-row: 6;
+        grid-column: 1/ -1;
+    }
+
+    .container .member{
+        grid-column: 1/-1;
+        grid-row: 3;
+    }
+    .container .timeline{
+        grid-column: 1/-1;
+        grid-row: 5;
+    }
+    .container .scope{
+        grid-column: 1/-1;
+        grid-row: 2;
+    }
+    .container .primary{
+        grid-column: 1/-1;
+        grid-row: 4;
+    }
+    div.container{
+        background-color: blue;
+        height: 3120px;
+    }
+    .member .t1{
+        display: block;
+    }
+    .member .t1 .icon{
+        margin-left: 50%;
+        margin-top:0px;
+    }
+    .timeline .t1{
+        display: block;
+    }
+    .timeline .t1 .icon{
+        margin-left:50%;
+        width: 20px;
+        margin-top: 0px;
+    }
+    .primary .nd .icon{
+      margin-top: 0px;
+    }
+    .primary .nd p{
+        display: block;
+    }
+    .primary .nd{
+        display: block;
+    }
+
+}
