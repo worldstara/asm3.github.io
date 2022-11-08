@@ -1,0 +1,149 @@
+@media (max-width: 500px){
+    .navbar .menu .menu1{
+        display: none;
+    }
+    .navbar{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar .menu .li1{
+        display: block;
+        border-right: none;
+        margin: 0;
+        padding:0;
+    }
+    .navbar .menu .li2{
+        display: block;
+        border-right: none;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar .menu .li3{
+        display: none;
+    }
+    div.target .target1{
+        grid-column: 1 /-1;
+        grid-row: 1;
+
+    }
+    div.target .target2{
+        grid-column: 1 /-1;
+        grid-row: 2;
+    }
+    div.target .target2 .tg4{
+        margin-left: -5px;
+    }
+    .info #exp{
+        grid-column: 1 /-1 ;
+        grid-row: 1;
+    }
+    .info #skill{
+        grid-column: 1/ -1 ;
+        grid-row: 2;
+    }
+    .info #language{
+        grid-column: 1 /-1;
+        grid-row: 3;
+    }
+    .info #action{
+        grid-column: 1/-1 ;
+        grid-row: 4;
+        margin-left: 0px;
+        height: auto;
+    }
+    .info #study{
+        grid-column: 1 /-1 ;
+        grid-row: 5;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .info #like{
+        grid-column: 1 /-1;
+        grid-row: 6;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .cc .ccwb{
+        grid-column: 1 /-1;
+        grid-row: 2;
+        padding: 0;
+        margin-left: 0px;
+        height: auto;
+        border-bottom: 2px solid #d6c08d;
+    }
+    .cc .ccwb .ccimg img{
+        width:95%;
+        height: 140px;
+    }
+    .cc .ccimg{
+        width: 100%;
+        height: auto;
+    }
+    .cc .ccjs{
+        grid-column: 1 /-1;
+        grid-row: 3;
+        padding: 0;
+        margin-left: 20px;
+        height: auto;
+        width: 100%;
+    }
+    .cc .ccjs .ccimg img{
+        width: 95%;
+        height: 140px;
+    }
+    .cc .ccwb .cctext{
+        margin-top: 12px;
+        margin-left: 100px;
+    }
+    .cc .ccjs .cctext{
+        margin-top: 60px;
+    }
+    .cc .ccjs{
+        margin-top: -30px;
+        padding-bottom: 40px;
+        border-bottom: 2px solid #d6c08d;
+        width: 100%;
+        height: auto;
+    }
+    .cc .ccdb{
+        border: none;
+        margin-top: -100px;
+        grid-column: 1 /-1;
+        grid-row: 4;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .cc .ccdb .ccimg img{
+        width: 100%;
+        height: auto;
+        
+    }
+    .cc .ccdb .cctext{
+        margin-top: 25px;
+    }
+    .duan1{
+        grid-column: 1 /-1;
+        grid-row: 2;
+    }
+    .duan2{
+        grid-column: 1 /-1;
+        grid-row: 3;
+    }
+    .duan3{
+        grid-column: 1 /-1;
+        grid-row: 4;
+    }
+    .duan .duanyear .year{
+        display: block;
+        padding-bottom: 26px;
+        margin-bottom: 20px;
+    }
+    .duan .duanyear .funix{
+        display: block;
+    }
+    .duan .duanyear .develop{
+        margin-left: 15px;
+    }
+}
